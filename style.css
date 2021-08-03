@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+
+}
+.to_do_list{
+    text-align: center;
+    margin-top: 50px;
+}
+.clear{content: ""; clear: both;}
+.caling{text-align: center;}
+h1{margin: 10px; text-transform: uppercase;}
+.btn-view{display: block; margin: 20px;}
+.btn-view button{padding: 10px; margin: 5px;}
+.input-view{margin: 10px; display: none;}
+.input-view input{height: 30px; text-align: center; color: #000; border: none; outline: none;}
+.input-view button{width: 100px; height: 30px; text-align: center; color: #000;}
+.req{font-size: 1.4em; color:rgb(255, 8, 8); padding: 10px; display:none;}
+.list-pro{margin: 20px;}
+.list-view{display: block; position: relative; width: 70%; margin: 0 auto;}
+.lists{display: block; border: 1px solid #000; text-align: left; padding: 20px; margin: 10px;}
+.lists h3{letter-spacing: 1.5px; line-height: 1.5; font-size: 1.5em;}
+.lists p{line-height: 1.5; font-size: 1em;}
+.in-btn{position: relative; float: right; top: -45px; padding: 5px; font-size: .9em; border: none; border-radius: 50%; margin: 2px}
+.in-btn:hover{background-color: rgba(255, 72, 0, 0.856); color: #fff; border: none}
